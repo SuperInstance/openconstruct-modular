@@ -1,0 +1,8 @@
+[package]
+name = "openconstruct-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Core module registry, event bus, and plugin traits for openConstruct"
+
+[dependencies]

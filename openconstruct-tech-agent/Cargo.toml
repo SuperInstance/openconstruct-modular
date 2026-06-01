@@ -1,0 +1,11 @@
+[package]
+name = "openconstruct-tech-agent"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Agent technology module for openConstruct"
+
+[dependencies]
+openconstruct-core = { path = "../openconstruct-core" }
+openconstruct-tech-math = { path = "../openconstruct-tech-math" }
+openconstruct-tech-sensor = { path = "../openconstruct-tech-sensor" }

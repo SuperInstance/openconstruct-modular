@@ -1,0 +1,9 @@
+[package]
+name = "openconstruct-tech-math"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Math technology module for openConstruct"
+
+[dependencies]
+openconstruct-core = { path = "../openconstruct-core" }

@@ -1,0 +1,12 @@
+[package]
+name = "openconstruct-runtime"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Runtime binary for openConstruct modular plugin system"
+
+[dependencies]
+openconstruct-core = { path = "../openconstruct-core" }
+openconstruct-tech-math = { path = "../openconstruct-tech-math" }
+openconstruct-tech-sensor = { path = "../openconstruct-tech-sensor" }
+openconstruct-tech-agent = { path = "../openconstruct-tech-agent" }

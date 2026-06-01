@@ -1,0 +1,14 @@
+[workspace]
+members = [
+    "openconstruct-core",
+    "openconstruct-tech-math",
+    "openconstruct-tech-sensor",
+    "openconstruct-tech-agent",
+    "openconstruct-runtime",
+]
+resolver = "2"
+
+[workspace.package]
+license = "MIT"
+edition = "2021"
+version = "0.1.0"
